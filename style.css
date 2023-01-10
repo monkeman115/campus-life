@@ -1,0 +1,93 @@
+.card {
+    width:350px;
+    min-height:230px;
+    border-bottom: 4px solid #006AFF;
+    margin: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+.button:hover {
+    background-color: #4A5568;
+    color:white;
+}
+.info {
+    display:flex;
+    justify-content: space-between;
+    padding:32px;
+    align-items: center;
+}
+.picture-section {
+    height: 150px;
+    position:relative;
+}
+.picture {
+    width:400px;
+    height: 200px;
+}
+.star {
+    background-color: #2D3748;
+    color: white;
+    position: absolute;
+    padding: 4px 8px;
+}
+.grading-system {
+    color: white;
+    position: absolute;
+    bottom:0;
+    right:0;
+    padding: 4px 8px;
+}
+.info {
+    padding:8px;
+    color: #2D3748;
+}
+.listing {
+    display: flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom: 4px;
+}
+.price {
+    font-size: 24px;
+    font-weight:bold;
+}
+.Website {
+    font-weight:bold;
+    margin-bottom: 4px;
+}
+.type {
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+}
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width:450px;
+    min-height:200px;
+    background-color:white;
+    border:5px #A0AEC0;
+    border-radius: 15px;
+    margin:16px;
+}
+.name {
+    font-weight:bold;
+    margin: 0 0 4px 0;
+}
+.job {
+    color:grey;
+}
+.avatar {
+    width:250px;
+    height:250px;
+}
+.fixing {
+    width: 200px;
+    height:250px;
+}
